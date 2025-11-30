@@ -151,7 +151,7 @@ npm run dev -- --host
 2. **启动后端**：
    - 在 `backend/` 目录执行：
      ```bash
-     uvicorn app.main:app --reload --port 8000
+     uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
      ```
    - 打开浏览器访问 `http://localhost:8000/docs`，确认 API 正常；
 3. **启动前端**：
